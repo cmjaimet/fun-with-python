@@ -140,7 +140,7 @@ pp = pprint.PrettyPrinter(indent=4)
 
 folder = './repo'
 thresholds = {
-    'lines': 80,
+    'lines': 70,
     'blocks': 5
 }
 
