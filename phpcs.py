@@ -5,10 +5,8 @@ import pprint
 def get_code_files( folder ):
     allfiles = []
     for ( dirpath, dirnames, filenames ) in walk( folder ):
-        # pp.pprint( filenames)
         for fname in filenames:
             if '.php' == fname[-4:]:
-                # print( '...' + dirpath + ' : ' + fname )
                 allfiles.append( dirpath + '/' + fname )
     return allfiles
 
@@ -147,17 +145,12 @@ thresholds = {
 }
 
 repo_files = get_code_files( folder )
-# pp.pprint( repo_files )
-# quit()
 
-# for fname in f:
 for fname in repo_files:
     code = get_code_from_file( fname )
     code = cleanse_code( code )
     classes = count_classes( code )
     fns = get_function_list( code)
-    # print(code)
-    # pp.pprint(fns)
     deets = get_function_details( fns )
     print( '' )
     print( fname )
