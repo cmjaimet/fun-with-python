@@ -1,0 +1,184 @@
+.horizontal-lists {
+	padding-top: 30px;
+	border-top: 3px solid #f1f1f1;
+}
+
+.horizontal-lists.outfit {
+	float: left;
+	width: 100%;
+}
+
+.horizontal-lists .twelvecol {
+	float: left;
+	margin-right: 2.762430939%;
+	margin-top: 0px;
+	width: 100%;
+}
+
+.horizontal-lists .threecol {
+	margin-right: 2.762430939%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 22.928176794%
+}
+
+.horizontal-lists .threecol.first {
+	margin-left: 0px !important;
+}
+
+.horizontal-lists .threecol.last {
+	margin-right: 0px !important;
+}
+
+.horizontal-lists article {
+	padding-top: 0px;
+	border-bottom: none !important;
+}
+
+.horizontal-lists article .thumbnail {
+	/* max-height: 149px; */
+	overflow-y: hidden;
+	margin-bottom: 10px !important;
+}
+
+.horizontal-lists article .thumbnail a {
+	display: block;
+	overflow: hidden;
+}
+
+.horizontal-lists article .thumbnail a img {
+	max-height: 149px;
+}
+
+.horizontal-lists article .thumbnail div.now-playing,
+.horizontal-lists article .thumbnail div.up-next,
+.horizontal-lists article.has-video .thumbnail .play-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 26%; 
+	color: #FFF;
+	font-size: 18px;
+	text-align: center;
+	background: rgba( 0, 0, 0, 0.7 );
+}
+
+.horizontal-lists article .thumbnail .up-next .play {
+	position: relative;
+	margin: 0 auto;
+	width: 77px;
+	height: 17px;
+	background-image: url( '../css/images/vc-icons/up-next.svg' );
+}
+
+.horizontal-lists article .thumbnail .play-overlay .play {
+	position: relative;
+	margin: 0 auto;
+	width: 40px;
+	height: 40px;
+	margin-top: -10px;
+	background-image: url( '../css/images/vc-icons/play.svg' );
+}
+
+.horizontal-lists.mobile article a.now-playing .play-overlay,
+.horizontal-lists.mobile article a.up-next .play-overlay {
+	display: none;
+}
+
+.horizontal-lists h2 {
+	padding-bottom: 15px;
+}
+
+.horizontal-lists .twelvecol {
+	margin-bottom: 20px;
+}
+
+.horizontal-lists .twelvecol.hidden {
+	display: none;
+}
+
+.horizontal-lists .row-bottom {
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin: 15px 0 80px 0;
+}
+
+.horizontal-lists .list-button {
+	padding: 20px 80px;
+	background: #000;
+	color: #FFF;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.horizontal-lists.mobile .list-button {
+	display: block;
+}
+
+.horizontal-lists .list-button:hover {
+	background: #666;
+}
+
+.horizontal-lists.mobile .sixcol {
+	width: 48.618784527%;
+	margin-right: 2.762430939%;
+}
+
+.horizontal-lists.mobile .sixcol.last {
+	margin-right: 0px !important;
+}
+
+.horizontal-lists.mobile .thumbnail {
+	/* max-width: 130px; */
+}
+
+@media screen and (max-width: 599px) {
+
+	.horizontal-lists article .thumbnail .play-overlay .play {
+			width: 30px;
+			height: 30px;
+	    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) and (orientation: landscape) {
+	.horizontal-lists article .thumbnail div.now-playing,
+	.horizontal-lists article .thumbnail div.up-next,
+	.horizontal-lists article.has-video .thumbnail .play-overlay {
+		padding-top: 30% !important;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) and (orientation: landscape) {
+	.horizontal-lists article .thumbnail div.now-playing,
+	.horizontal-lists article .thumbnail div.up-next,
+	.horizontal-lists article.has-video .thumbnail .play-overlay {
+		padding-top: 28% !important;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) and (orientation: landscape) {
+	.horizontal-lists article .thumbnail div.now-playing,
+	.horizontal-lists article .thumbnail div.up-next,
+	.horizontal-lists article.has-video .thumbnail .play-overlay {
+		padding-top: 20% !important;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.horizontal-lists article .thumbnail div.now-playing,
+	.horizontal-lists article .thumbnail div.up-next,
+	.horizontal-lists article.has-video .thumbnail .play-overlay {
+		padding-top: 35%;
+	}
+}
+
+@media screen and (max-width: 1023px) and (orientation: landscape) {
+	.horizontal-lists article .thumbnail div.now-playing,
+	.horizontal-lists article .thumbnail div.up-next,
+	.horizontal-lists article.has-video .thumbnail .play-overlay {
+		padding-top: 15%;
+	}
+}

@@ -2,27 +2,41 @@ from os import walk
 from re import findall, sub, split, search
 import pprint
 
-def get_php_files( files, folder ):
-    phpfiles = []
-    for fname in files:
-        if '.php' == fname[-4:]:
-            phpfiles.append( folder + '/' + fname )
-    return phpfiles
+# def get_code_files( folder ):
+#     f = []
+#     # // make recursive
+#     return get_folder( folder )
+#     for (dirpath, dirnames, filenames) in walk( folder ):
+#         f.extend( get_php_files( filenames, folder ) )
+#         for folder2 in dirnames:
+#             folder2 = folder + '/' + folder2
+#             for ( dirpath2, dirnames2, filenames2) in walk( folder2 ):
+#                 f.extend( get_php_files( filenames2, folder2 ) )
+#                 # if dirnames2:
+#                     # // next level of recursion - not now
+#                 break
+#         break
+#     return f
 
-def get_code_files( root_folder ):
-    f = []
-    # // make recursive
-    for (dirpath, dirnames, filenames) in walk( root_folder ):
-        f.extend( get_php_files( filenames, root_folder ) )
-        for folder2 in dirnames:
-            folder2 = root_folder + '/' + folder2
-            for ( dirpath2, dirnames2, filenames2) in walk( folder2 ):
-                f.extend( get_php_files( filenames2, folder2 ) )
-                # if dirnames2:
-                    # // next level of recursion - not now
-                break
-        break
-    return f
+def get_folders( folder ):
+    allfiles = []
+    for ( dirpath, dirnames, filenames ) in walk( folder ):
+        print( 'folder: ' + dirpath )
+        for fname in filenames:
+            if '.php' == fname[-4:]:
+                print( dirpath + ' : ' + fname )
+                allfiles.append( dirpath + '/' + fname )
+    return allfiles
+
+def get_code_files( folder ):
+    allfiles = []
+    for ( dirpath, dirnames, filenames ) in walk( folder ):
+        # pp.pprint( filenames)
+        for fname in filenames:
+            if '.php' == fname[-4:]:
+                # print( '...' + dirpath + ' : ' + fname )
+                allfiles.append( dirpath + '/' + fname )
+    return allfiles
 
 def get_code_from_file( path ):
     text = open( path ).read()
@@ -112,25 +126,65 @@ def get_function_args( text ):
     for pair in pairs:
         keyval = split( '=', pair )
         key = keyval[0]
-        if 2 == len( keyval ):
-            val = keyval[1]
-        else:
-            val = None
-        args.append( { key: val } )
+        if ( '' != key ):
+            if 2 == len( keyval ):
+                val = keyval[1]
+            else:
+                val = None
+            args.append( { key: val } )
     return args
 
+def display_functions( fns, thresholds, flagged_only ):
+    count = 0
+    output = ''
+    output += 'title'
+    output += ( ' ' * 30 )
+    output += 'lines  '
+    output += 'blocks  '
+    output += 'flagged'
+    output += "\n"
+    output += ( '-' * 57 ) + "\n"
+    for fn in fns:
+        flag = is_function_flagged( fn, thresholds )
+        if ( flagged_only and flag or not flagged_only ):
+            output += fn['title']
+            output += ( ' ' * ( 40 - len( fn['title'] ) - len( str( fn['lines'] ) ) ) )
+            output += str( fn['lines'] )
+            output += ( ' ' * ( 8 - len( str( fn['blocks'] ) ) ) )
+            output += str( fn['blocks'] )
+            output += '       '
+            output += ( '**' if flag else '' )
+            output += "\n"
+            count += 1
+    return output if ( 0 < count ) else ' -- No code flags'
 
+def is_function_flagged( fn, thresholds ):
+    if ( fn['lines'] > thresholds['lines'] or fn['blocks'] > thresholds['blocks'] ):
+        return True
+    else:
+        return False
 
 pp = pprint.PrettyPrinter(indent=4)
-folder = './php_repo'
-f = get_code_files( folder )
-# print( f )
+
+folder = './repo'
+thresholds = {
+    'lines': 80,
+    'blocks': 5
+}
+
+repo_files = get_code_files( folder )
+# pp.pprint( repo_files )
+# quit()
+
 # for fname in f:
-code = get_code_from_file( folder + '/classes/PostmediaLayoutsAdmin.php' )
-code = cleanse_code( code )
-classes = count_classes( code )
-fns = get_function_list( code)
-# print(code)
-# pp.pprint(fns)
-deets = get_function_details( fns )
-pp.pprint(deets)
+for fname in repo_files:
+    code = get_code_from_file( fname )
+    code = cleanse_code( code )
+    classes = count_classes( code )
+    fns = get_function_list( code)
+    # print(code)
+    # pp.pprint(fns)
+    deets = get_function_details( fns )
+    print( '' )
+    print( fname )
+    print( display_functions( deets, thresholds, True ) )
