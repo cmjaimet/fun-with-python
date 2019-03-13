@@ -2,32 +2,6 @@ from os import walk
 from re import findall, sub, split, search
 import pprint
 
-# def get_code_files( folder ):
-#     f = []
-#     # // make recursive
-#     return get_folder( folder )
-#     for (dirpath, dirnames, filenames) in walk( folder ):
-#         f.extend( get_php_files( filenames, folder ) )
-#         for folder2 in dirnames:
-#             folder2 = folder + '/' + folder2
-#             for ( dirpath2, dirnames2, filenames2) in walk( folder2 ):
-#                 f.extend( get_php_files( filenames2, folder2 ) )
-#                 # if dirnames2:
-#                     # // next level of recursion - not now
-#                 break
-#         break
-#     return f
-
-def get_folders( folder ):
-    allfiles = []
-    for ( dirpath, dirnames, filenames ) in walk( folder ):
-        print( 'folder: ' + dirpath )
-        for fname in filenames:
-            if '.php' == fname[-4:]:
-                print( dirpath + ' : ' + fname )
-                allfiles.append( dirpath + '/' + fname )
-    return allfiles
-
 def get_code_files( folder ):
     allfiles = []
     for ( dirpath, dirnames, filenames ) in walk( folder ):
