@@ -14,8 +14,13 @@ def get_code_from_file( path ):
     text = open( path ).read()
     return text
 
-def count_classes( text ):
+def get_classes( text ):
     return findall( r'\n\s*class[^\{]+\{', text )
+
+def count_classes( text ):
+	classes = get_classes( text )
+	count = len( classes )
+	return count
 
 def cleanse_code( text ):
     text = sub( r'\n\s*\/\/[^\n]*\n', "\n", text) # remove comment lines
@@ -109,12 +114,7 @@ def get_function_args( text ):
 def display_functions( fns, thresholds, flagged_only ):
     count = 0
     output = ''
-    output += 'title'
-    output += ( ' ' * 30 )
-    output += 'lines  '
-    output += 'blocks  '
-    output += 'flagged'
-    output += "\n"
+    output += 'title' + ( ' ' * 30 ) + "lines  blocks  flagged\n"
     output += ( '-' * 57 ) + "\n"
     for fn in fns:
         flag = is_function_flagged( fn, thresholds )
@@ -136,22 +136,59 @@ def is_function_flagged( fn, thresholds ):
     else:
         return False
 
+def get_file_details( text, thresholds ):
+	class_count = count_classes( text )
+	static_method_calls = len( findall( '::', text ) )
+	train_wrecks = get_train_wrecks( text, thresholds['train_length'] )
+	return {
+		'classes': class_count,
+		'train_wrecks': train_wrecks,
+		'static_method_calls': static_method_calls
+	}
+
+def get_train_wrecks( text, links ):
+	# text = sub( r'\([^\)]+\)', '()', text )
+	# fails on text in ()
+	text = sub( r'\t+', ' ', text )
+	print(text)
+	trains = findall( r'(([0-9a-zA-Z$_\(\)\[\]]+\-\>){' + str( links ) + ',9}[0-9a-zA-Z$_\(\)\[\]]+)', text )
+	# count = len( trains )
+	pp.pprint(trains)
+	output = []
+	for train in trains:
+		output.append(train[0])
+	return output
+
 pp = pprint.PrettyPrinter(indent=4)
 
 folder = './repo'
 thresholds = {
-    'lines': 80,
-    'blocks': 5
+    'lines': 70,
+    'blocks': 5,
+	'train_length': 2
 }
 
 repo_files = get_code_files( folder )
+repo_files = [ './repo/functions/utility.php' ]
 
+file_list = []
 for fname in repo_files:
-    code = get_code_from_file( fname )
-    code = cleanse_code( code )
-    classes = count_classes( code )
-    fns = get_function_list( code)
-    deets = get_function_details( fns )
-    print( '' )
-    print( fname )
-    print( display_functions( deets, thresholds, True ) )
+	# print( '' )
+	# print( fname )
+	code = get_code_from_file( fname )
+	code = cleanse_code( code )
+	file_general = get_file_details( code, thresholds )
+	fns = get_function_list( code)
+	function_details = get_function_details( fns )
+	# print( display_functions( function_details, thresholds, True ) )
+	file_list.append( {
+		'name': fname,
+		'functions': function_details,
+		'general': file_general
+	} )
+
+# pp.pprint( file_list )
+
+for f in file_list:
+	print( f['name'] )
+	pp.pprint( f['general'] )
