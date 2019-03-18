@@ -2,6 +2,7 @@ from os import walk
 from re import findall, sub, split, search
 import pprint
 
+# get code filter
 def get_code_files( folder ):
     allfiles = []
     for ( dirpath, dirnames, filenames ) in walk( folder ):
