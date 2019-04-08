@@ -1,0 +1,2 @@
+site1.wordpress.com
+site2.wordpress.com
