@@ -1,0 +1,17 @@
+limit: 100
+posts_csv: 'output/posts.csv'
+comments_csv: 'output/comments.csv'
+facebook:
+  token: '999zzz9z99z'
+  account_id: '99999999'
+  api_key: '9999999'
+  url_base: 'https://graph.facebook.com/v3.1'
+wordpress:
+  client_id: '99999'
+  secret: 'aaa999a999a999a9'
+  uid: 'username'
+  pwd_app: 'aa999aaz999'
+  api_domain: 'public-api.wordpress.com'
+  site_domain: 'domain.com'
+  category: 'politics'
+  post_id: ''

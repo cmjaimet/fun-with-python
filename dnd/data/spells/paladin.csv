@@ -1,0 +1,48 @@
+Bless	1st	Enchantment		1 action	VSM	yes	phb 219
+Ceremony	1st	Abjuration	yes	1 hour	VSMgp		xge 151
+Command	1st	Enchantment		1 action	V		phb 223
+Compelled Duel	1st	Enchantment		1 bonus action	V	yes	phb 224
+Cure Wounds	1st	Evocation		1 action	VS		phb 230
+Detect Evil and Good	1st	Divination		1 action	VS	yes	phb 231
+Detect Magic	1st	Divination	yes	1 action	VS	yes	phb 231
+Detect Poison and Disease	1st	Divination	yes	1 action	VSM	yes	phb 231
+Divine Favor	1st	Evocation		1 bonus action	VS	yes	phb 234
+Heroism	1st	Enchantment		1 action	VS	yes	phb 250
+Protection from Evil and Good	1st	Abjuration		1 action	VSM	yes	phb 270
+Purify Food and Drink	1st	Transmutation	yes	1 action	VS		phb 270
+Searing Smite	1st	Evocation		1 bonus action	V	yes	phb 274
+Shield of Faith	1st	Abjuration		1 bonus action	VSM	yes	phb 275
+Thunderous Smite	1st	Evocation		1 bonus action	V	yes	phb 282
+Wrathful Smite	1st	Evocation		1 bonus action	V	yes	phb 289
+Aid	2nd	Abjuration		1 action	VSM		phb 211
+Branding Smite	2nd	Evocation		1 bonus action	V	yes	phb 219
+Find Steed	2nd	Conjuration		10 minutes	VS		phb 240
+Lesser Restoration	2nd	Abjuration		1 action	VS		phb 255
+Locate Object	2nd	Divination		1 action	VSM	yes	phb 256
+Magic Weapon	2nd	Transmutation		1 bonus action	VS	yes	phb 257
+Protection from Poison	2nd	Abjuration		1 action	VS		phb 270
+Zone of Truth	2nd	Enchantment		1 action	VS		phb 289
+Aura of Vitality	3rd	Evocation		1 action	V	yes	phb 216
+Blinding Smite	3rd	Evocation		1 bonus action	V	yes	phb 219
+Create Food and Water	3rd	Conjuration		1 action	VS		phb 229
+Crusader's Mantle	3rd	Evocation		1 action	V	yes	phb 230
+Daylight	3rd	Evocation		1 action	VS		phb 230
+Dispel Magic	3rd	Abjuration		1 action	VS		phb 234
+Elemental Weapon	3rd	Transmutation		1 action	VS	yes	phb 237
+Magic Circle	3rd	Abjuration		1 minute	VSMgp		phb 256
+Remove Curse	3rd	Abjuration		1 action	VS		phb 271
+Revivify	3rd	Necromancy		1 action	VSMgp		phb 272
+Aura of Life	4th	Abjuration		1 action	V	yes	phb 216
+Aura of Purity	4th	Abjuration		1 action	V	yes	phb 216
+Banishment	4th	Abjuration		1 action	VSM	yes	phb 217
+Death Ward	4th	Abjuration		1 action	VS		phb 230
+Find Greater Steed	4th	Conjuration		10 minutes	VS		xge 156
+Locate Creature	4th	Divination		1 action	VSM	yes	phb 256
+Staggering Smite	4th	Evocation		1 bonus action	V	yes	phb 278
+Banishing Smite	5th	Abjuration		1 bonus action	V	yes	phb 216
+Circle of Power	5th	Abjuration		1 action	V	yes	phb 221
+Destructive Wave	5th	Evocation		1 action	V		phb 231
+Dispel Evil and Good	5th	Abjuration		1 action	VSM	yes	phb 233
+Geas	5th	Enchantment		1 minute	V		phb 244
+Holy Weapon	5th	Evocation		1 bonus action	VS	yes	xge 157
+Raise Dead	5th	Necromancy		1 hour	VSMgp		phb 270

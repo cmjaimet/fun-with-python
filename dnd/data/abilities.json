@@ -1,0 +1,11 @@
+{
+  "starting_scores": [ 15, 14, 13, 12, 10, 8 ],
+  "types": [
+    "Strength",
+    "Dexterity",
+    "Constitution",
+    "Intelligence",
+    "Wisdom",
+    "Charisma"
+  ]
+}

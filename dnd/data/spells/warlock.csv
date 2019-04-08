@@ -1,0 +1,114 @@
+Blade Ward	Cantrip	Abjuration		1 action	VS		phb 218
+Booming Blade	Cantrip	Evocation		1 action	VM		scag 142
+Chill Touch	Cantrip	Necromancy		1 action	VS		phb 221
+Create Bonfire	Cantrip	Conjuration		1 action	VS	yes	ee 16, xge 152
+Eldritch Blast	Cantrip	Evocation		1 action	VS		phb 237
+Friends	Cantrip	Enchantment		1 action	SM	yes	phb 244
+Frostbite	Cantrip	Evocation		1 action	VS		ee 18, xge 156
+Green-Flame Blade	Cantrip	Evocation		1 action	VM		scag 143
+Infestation	Cantrip	Conjuration		1 action	VSM		xge 158
+Lightning Lure	Cantrip	Evocation		1 action	V		scag 143
+Mage Hand	Cantrip	Conjuration		1 action	VS		phb 256
+Magic Stone	Cantrip	Transmutation		1 bonus action	VS		ee 20, xge 160
+Minor Illusion	Cantrip	Illusion		1 action	SM		phb 260
+Poison Spray	Cantrip	Conjuration		1 action	VS		phb 266
+Prestidigitation	Cantrip	Transmutation		1 action	VS		phb 267
+Sword Burst	Cantrip	Conjuration		1 action	V		scag 143
+Thunderclap	Cantrip	Evocation		1 action	S		ee 22, xge 168
+Toll the Dead	Cantrip	Necromancy		1 action	VS		xge 169
+True Strike	Cantrip	Divination		1 action	S	yes	phb 284
+Armor of Agathys	1st	Abjuration		1 action	VSM		phb 215
+Arms of Hadar	1st	Conjuration		1 action	VS		phb 215
+Cause Fear	1st	Necromancy		1 action	V	yes	xge 151
+Charm Person	1st	Enchantment		1 action	VS		phb 221
+Comprehend Languages	1st	Divination	yes	1 action	VSM		phb 224
+Expeditious Retreat	1st	Transmutation		1 bonus action	VS	yes	phb 238
+Hellish Rebuke	1st	Evocation		1 reaction	VS		phb 250
+Hex	1st	Enchantment		1 bonus action	VSM	yes	phb 251
+Illusory Script	1st	Illusion	yes	1 minute	SMgp		phb 252
+Protection from Evil and Good	1st	Abjuration		1 action	VSM	yes	phb 270
+Unseen Servant	1st	Conjuration	yes	1 action	VSM		phb 284
+Witch Bolt	1st	Evocation		1 action	VSM	yes	phb 289
+Cloud of Daggers	2nd	Conjuration		1 action	VSM	yes	phb 222
+Crown of Madness	2nd	Enchantment		1 action	VS	yes	phb 229
+Darkness	2nd	Evocation		1 action	VM	yes	phb 230
+Earthbind	2nd	Transmutation		1 action	V	yes	ee 17, xge 154
+Enthrall	2nd	Enchantment		1 action	VS		phb 238
+Hold Person	2nd	Enchantment		1 action	VSM	yes	phb 251
+Invisibility	2nd	Illusion		1 action	VSM	yes	phb 254
+Mind Spike	2nd	Divination		1 action	S	yes	xge 162
+Mirror Image	2nd	Illusion		1 action	VS		phb 260
+Misty Step	2nd	Conjuration		1 bonus action	V		phb 260
+Ray of Enfeeblement	2nd	Necromancy		1 action	VS	yes	phb 271
+Shadow Blade	2nd	Illusion		1 bonus action	VS	yes	xge 164
+Shatter	2nd	Evocation		1 action	VSM		phb 275
+Spider Climb	2nd	Transmutation		1 action	VSM	yes	phb 277
+Suggestion	2nd	Enchantment		1 action	VM	yes	phb 279
+Counterspell	3rd	Abjuration		1 reaction	S		phb 228
+Dispel Magic	3rd	Abjuration		1 action	VS		phb 234
+Enemies Abound	3rd	Enchantment		1 action	VS	yes	xge 155
+Fear	3rd	Illusion		1 action	VSM	yes	phb 239
+Fly	3rd	Transmutation		1 action	VSM	yes	phb 243
+Gaseous Form	3rd	Transmutation		1 action	VSM	yes	phb 244
+Hunger of Hadar	3rd	Conjuration		1 action	VSM	yes	phb 251
+Hypnotic Pattern	3rd	Illusion		1 action	SM	yes	phb 252
+Magic Circle	3rd	Abjuration		1 minute	VSMgp		phb 256
+Major Image	3rd	Illusion		1 action	VSM	yes	phb 258
+Remove Curse	3rd	Abjuration		1 action	VS		phb 271
+Summon Lesser Demons	3rd	Conjuration		1 action	VSM	yes	xge 167
+Thunder Step	3rd	Conjuration		1 action	V		xge 168
+Tongues	3rd	Divination		1 action	VM		phb 283
+Vampiric Touch	3rd	Necromancy		1 action	VS	yes	phb 285
+Banishment	4th	Abjuration		1 action	VSM	yes	phb 217
+Blight	4th	Necromancy		1 action	VS		phb 219
+Charm Monster	4th	Enchantment		1 action	VS		xge 151
+Dimension Door	4th	Conjuration		1 action	V		phb 233
+Elemental Bane	4th	Transmutation		1 action	VS	yes	ee 17, xge 155
+Hallucinatory Terrain	4th	Illusion		10 minutes	VSM		phb 249
+Shadow of Moil	4th	Necromancy		1 action	VSMgp	yes	xge 164
+Sickening Radiance	4th	Evocation		1 action	VS	yes	xge 164
+Summon Greater Demon	4th	Conjuration		1 action	VSM	yes	xge 166
+Contact Other Plane	5th	Divination	yes	1 minute	V		phb 226
+Danse Macabre	5th	Necromancy		1 action	VS	yes	xge 153
+Dream	5th	Illusion		1 minute	VSM		phb 236
+Enervation	5th	Necromancy		1 action	VS	yes	xge 155
+Far Step	5th	Conjuration		1 bonus action	V	yes	xge 155
+Hold Monster	5th	Enchantment		1 action	VSM	yes	phb 251
+Infernal Calling	5th	Conjuration		1 minute	VSMgp	yes	xge 158
+Negative Energy Flood	5th	Necromancy		1 action	VM		xge 163
+Scrying	5th	Divination		10 minutes	VSMgp	yes	phb 273
+Synaptic Static	5th	Enchantment		1 action	VS		xge 167
+Wall of Light	5th	Evocation		1 action	VSM	yes	xge 170
+Arcane Gate	6th	Conjuration		1 action	VS	yes	phb 214
+Circle of Death	6th	Necromancy		1 action	VSMgp		phb 221
+Conjure Fey	6th	Conjuration		1 minute	VS	yes	phb 226
+Create Undead	6th	Necromancy		1 minute	VSMgp		phb 229
+Eyebite	6th	Necromancy		1 action	VS	yes	phb 238
+Flesh to Stone	6th	Transmutation		1 action	VSM	yes	phb 243
+Investiture of Flame	6th	Transmutation		1 action	VS	yes	ee 19, xge 159
+Investiture of Ice	6th	Transmutation		1 action	VS	yes	ee 19, xge 159
+Investiture of Stone	6th	Transmutation		1 action	VS	yes	ee 19, xge 159
+Investiture of Wind	6th	Transmutation		1 action	VS	yes	ee 20, xge 160
+Mass Suggestion	6th	Enchantment		1 action	VM		phb 258
+Mental Prison	6th	Illusion		1 action	S	yes	xge 161
+Scatter	6th	Abjuration		1 action	V		xge 164
+Soul Cage	6th	Necromancy		1 reaction	VSMgp		xge 165
+True Seeing	6th	Divination		1 action	VSMgp		phb 284
+Crown of Stars	7th	Evocation		1 action	VS		xge 152
+Etherealness	7th	Transmutation		1 action	VS		phb 238
+Finger of Death	7th	Necromancy		1 action	VS		phb 241
+Forcecage	7th	Evocation		1 action	VSMgp		phb 243
+Plane Shift	7th	Conjuration		1 action	VSMgp		phb 266
+Power Word Pain	7th	Enchantment		1 action	V		xge 163
+Demiplane	8th	Conjuration		1 action	S		phb 231
+Dominate Monster	8th	Enchantment		1 action	VS	yes	phb 235
+Feeblemind	8th	Enchantment		1 action	VSM		phb 239
+Glibness	8th	Transmutation		1 action	V		phb 245
+Maddening Darkness	8th	Evocation		1 action	VM	yes	xge 160
+Power Word Stun	8th	Enchantment		1 action	V		phb 267
+Astral Projection	9th	Necromancy		1 hour	VSMgp		phb 215
+Foresight	9th	Divination		1 minute	VSM		phb 244
+Imprisonment	9th	Abjuration		1 minute	VSMgp		phb 252
+Power Word Kill	9th	Enchantment		1 action	V		phb 266
+Psychic Scream	9th	Enchantment		1 action	S		xge 163
+True Polymorph	9th	Transmutation		1 action	VSM	yes	phb 283

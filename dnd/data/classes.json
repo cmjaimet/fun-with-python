@@ -1,0 +1,50 @@
+{
+  "Barbarian": {
+    "hit_dice": 12,
+    "abilities": [ "Strength" ]
+  },
+  "Bard": {
+    "hit_dice": 8,
+    "abilities": [ "Charisma" ]
+  },
+  "Cleric": {
+    "hit_dice": 8,
+    "abilities": [ "Wisdom" ]
+  },
+  "Druid": {
+    "hit_dice": 8,
+    "abilities": [ "Wisdom" ]
+  },
+  "Fighter": {
+    "hit_dice": 10,
+    "abilities": [ "Strength", "Dexterity" ]
+  },
+  "Monk": {
+    "hit_dice": 8,
+    "abilities": [ "Dexterity", "Wisdom" ]
+  },
+  "Paladin": {
+    "hit_dice": 10,
+    "abilities": [ "Strength", "Charisma" ]
+  },
+  "Ranger": {
+    "hit_dice": 10,
+    "abilities": [ "Dexterity", "Wisdom" ]
+  },
+  "Rogue": {
+    "hit_dice": 8,
+    "abilities": [ "Dexterity" ]
+  },
+  "Sorcerer": {
+    "hit_dice": 6,
+    "abilities": [ "Charisma" ]
+  },
+  "Warlock": {
+    "hit_dice": 8,
+    "abilities": [ "Charisma" ]
+  },
+  "Wizard": {
+    "hit_dice": 6,
+    "abilities": [ "Intelligence" ]
+  }
+}

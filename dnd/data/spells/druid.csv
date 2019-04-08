@@ -1,0 +1,150 @@
+Control Flames	Cantrip	Transmutation		1 action	S		ee 16, xge 152
+Create Bonfire	Cantrip	Conjuration		1 action	VS	yes	ee 16, xge 152
+Druidcraft	Cantrip	Transmutation		1 action	VS		phb 236
+Frostbite	Cantrip	Evocation		1 action	VS		ee 18, xge 156
+Guidance	Cantrip	Divination		1 action	VS	yes	phb 248
+Gust	Cantrip	Transmutation		1 action	VS		ee 19, xge 157
+Infestation	Cantrip	Conjuration		1 action	VSM		xge 158
+Magic Stone	Cantrip	Transmutation		1 bonus action	VS		ee 20, xge 160
+Mending	Cantrip	Transmutation		1 minute	VSM		phb 259
+Mold Earth	Cantrip	Transmutation		1 action	S		ee 21, xge 162
+Poison Spray	Cantrip	Conjuration		1 action	VS		phb 266
+Primal Savagery	Cantrip	Transmutation		1 action	S		xge 163
+Produce Flame	Cantrip	Conjuration		1 action	VS		phb 269
+Resistance	Cantrip	Abjuration		1 action	VSM	yes	phb 272
+Shape Water	Cantrip	Transmutation		1 action	S		ee 21
+Shillelagh	Cantrip	Transmutation		1 bonus action	VSM		phb 275
+Thorn Whip	Cantrip	Transmutation		1 action	VSM		phb 282
+Thunderclap	Cantrip	Evocation		1 action	S		ee 22, xge 168
+Absorb Elements	1st	Abjuration		1 reaction	S		ee 15, xge 150
+Animal Friendship	1st	Enchantment		1 action	VSM		phb 212
+Beast Bond	1st	Divination		1 action	VSM	yes	ee 15, xge 150
+Charm Person	1st	Enchantment		1 action	VS		phb 221
+Create or Destroy Water	1st	Transmutation		1 action	VSM		phb 229
+Cure Wounds	1st	Evocation		1 action	VS		phb 230
+Detect Magic	1st	Divination	yes	1 action	VS	yes	phb 231
+Detect Poison and Disease	1st	Divination	yes	1 action	VSM	yes	phb 231
+Earth Tremor	1st	Evocation		1 action	VS		ee 17, xge 155
+Entangle	1st	Conjuration		1 action	VS	yes	phb 238
+Faerie Fire	1st	Evocation		1 action	V	yes	phb 239
+Fog Cloud	1st	Conjuration		1 action	VS	yes	phb 243
+Goodberry	1st	Transmutation		1 action	VSM		phb 246
+Healing Word	1st	Evocation		1 bonus action	V		phb 250
+Ice Knife	1st	Conjuration		1 action	SM		ee 19, xge 157
+Jump	1st	Transmutation		1 action	VSM		phb 254
+Longstrider	1st	Transmutation		1 action	VSM		phb 256
+Purify Food and Drink	1st	Transmutation	yes	1 action	VS		phb 270
+Snare	1st	Abjuration		1 minute	SMgp		xge 165
+Speak with Animals	1st	Divination	yes	1 action	VS		phb 277
+Thunderwave	1st	Evocation		1 action	VS		phb 282
+Animal Messenger	2nd	Enchantment	yes	1 action	VSM		phb 212
+Barkskin	2nd	Transmutation		1 action	VSM	yes	phb 217
+Beast Sense	2nd	Divination	yes	1 action	S	yes	phb 217
+Darkvision	2nd	Transmutation		1 action	VSM		phb 230
+Dust Devil	2nd	Conjuration		1 action	VSM	yes	ee 17, xge 154
+Earthbind	2nd	Transmutation		1 action	V	yes	ee 17, xge 154
+Enhance Ability	2nd	Transmutation		1 action	VSM	yes	phb 237
+Find Traps	2nd	Divination		1 action	VS		phb 241
+Flame Blade	2nd	Evocation		1 bonus action	VSM	yes	phb 242
+Flaming Sphere	2nd	Conjuration		1 action	VSM	yes	phb 242
+Gust of Wind	2nd	Evocation		1 action	VSM	yes	phb 248
+Healing Spirit	2nd	Conjuration		1 bonus action	VS	yes	xge 157
+Heat Metal	2nd	Transmutation		1 action	VSM	yes	phb 250
+Hold Person	2nd	Enchantment		1 action	VSM	yes	phb 251
+Lesser Restoration	2nd	Abjuration		1 action	VS		phb 255
+Locate Animals or Plants	2nd	Divination	yes	1 action	VSM		phb 256
+Locate Object	2nd	Divination		1 action	VSM	yes	phb 256
+Moonbeam	2nd	Evocation		1 action	VSM	yes	phb 261
+Pass without Trace	2nd	Abjuration		1 action	VSM	yes	phb 264
+Protection from Poison	2nd	Abjuration		1 action	VS		phb 270
+Skywrite	2nd	Transmutation	yes	1 action	VS	yes	ee 22, xge 165
+Spike Growth	2nd	Transmutation		1 action	VSM	yes	phb 277
+Warding Wind	2nd	Evocation		1 action	V	yes	ee 23, xge 170
+Call Lightning	3rd	Conjuration		1 action	VS	yes	phb 220
+Conjure Animals	3rd	Conjuration		1 action	VS	yes	phb 225
+Daylight	3rd	Evocation		1 action	VS		phb 230
+Dispel Magic	3rd	Abjuration		1 action	VS		phb 234
+Erupting Earth	3rd	Transmutation		1 action	VSM		ee 17, xge 155
+Feign Death	3rd	Necromancy	yes	1 action	VSM		phb 240
+Flame Arrows	3rd	Transmutation		1 action	VS	yes	ee 18, xge 156
+Meld into Stone	3rd	Transmutation	yes	1 action	VS		phb 259
+Plant Growth	3rd	Transmutation		1 action	VS		phb 266
+Protection from Energy	3rd	Abjuration		1 action	VS	yes	phb 270
+Sleet Storm	3rd	Conjuration		1 action	VSM	yes	phb 276
+Speak with Plants	3rd	Transmutation		1 action	VS		phb 277
+Tidal Wave	3rd	Conjuration		1 action	VSM		ee 22, xge 168
+Wall of Water	3rd	Evocation		1 action	VSM	yes	ee 23, xge 170
+Water Breathing	3rd	Transmutation	yes	1 action	VSM		phb 287
+Water Walk	3rd	Transmutation	yes	1 action	VSM		phb 287
+Wind Wall	3rd	Evocation		1 action	VSM	yes	phb 288
+Blight	4th	Necromancy		1 action	VS		phb 219
+Charm Monster	4th	Enchantment		1 action	VS		xge 151
+Confusion	4th	Enchantment		1 action	VSM	yes	phb 224
+Conjure Minor Elementals	4th	Conjuration		1 minute	VS	yes	phb 226
+Conjure Woodland Beings	4th	Conjuration		1 action	VSM	yes	phb 226
+Control Water	4th	Transmutation		1 action	VSM	yes	phb 227
+Dominate Beast	4th	Enchantment		1 action	VS	yes	phb 234
+Elemental Bane	4th	Transmutation		1 action	VS	yes	ee 17, xge 155
+Freedom of Movement	4th	Abjuration		1 action	VSM		phb 244
+Giant Insect	4th	Transmutation		1 action	VS	yes	phb 245
+Grasping Vine	4th	Conjuration		1 bonus action	VS	yes	phb 246
+Guardian of Nature	4th	Transmutation		1 bonus action	V	yes	xge 157
+Hallucinatory Terrain	4th	Illusion		10 minutes	VSM		phb 249
+Ice Storm	4th	Evocation		1 action	VSM		phb 252
+Locate Creature	4th	Divination		1 action	VSM	yes	phb 256
+Polymorph	4th	Transmutation		1 action	VSM	yes	phb 266
+Stone Shape	4th	Transmutation		1 action	VSM		phb 278
+Stoneskin	4th	Abjuration		1 action	VSMgp	yes	phb 278
+Wall of Fire	4th	Evocation		1 action	VSM	yes	phb 285
+Watery Sphere	4th	Conjuration		1 action	VSM	yes	ee 23, xge 170
+Antilife Shell	5th	Abjuration		1 action	VS	yes	phb 213
+Awaken	5th	Transmutation		8 hours	VSMgp		phb 216
+Commune with Nature	5th	Divination	yes	1 minute	VS		phb 224
+Conjure Elemental	5th	Conjuration		1 minute	VSM	yes	phb 225
+Contagion	5th	Necromancy		1 action	VS		phb 227
+Control Winds	5th	Transmutation		1 action	VS	yes	ee 16
+Geas	5th	Enchantment		1 minute	V		phb 244
+Greater Restoration	5th	Abjuration		1 action	VSMgp		phb 246
+Insect Plague	5th	Conjuration		1 action	VSM	yes	phb 254
+Maelstrom	5th	Evocation		1 action	VSM	yes	ee 20, xge 160
+Mass Cure Wounds	5th	Evocation		1 action	VS		phb 258
+Planar Binding	5th	Abjuration		1 hour	VSMgp		phb 265
+Reincarnate	5th	Transmutation		1 hour	VSMgp		phb 271
+Scrying	5th	Divination		10 minutes	VSMgp	yes	phb 273
+Transmute Rock	5th	Transmutation		1 action	VSM		ee 22, xge 169
+Tree Stride	5th	Conjuration		1 action	VS	yes	phb 283
+Wall of Stone	5th	Evocation		1 action	VSM	yes	phb 287
+Wrath of Nature	5th	Evocation		1 action	VS	yes	xge 171
+Bones of the Earth	6th	Transmutation		1 action	VS		ee 15, xge 150
+Conjure Fey	6th	Conjuration		1 minute	VS	yes	phb 226
+Druid Grove	6th	Abjuration		10 minutes	VSM		xge 154
+Find the Path	6th	Divination		1 minute	VSMgp	yes	phb 240
+Heal	6th	Evocation		1 action	VS		phb 250
+Heroes' Feast	6th	Conjuration		10 minutes	VSMgp		phb 250
+Investiture of Flame	6th	Transmutation		1 action	VS	yes	ee 19, xge 159
+Investiture of Ice	6th	Transmutation		1 action	VS	yes	ee 19, xge 159
+Investiture of Stone	6th	Transmutation		1 action	VS	yes	ee 19, xge 159
+Investiture of Wind	6th	Transmutation		1 action	VS	yes	ee 20, xge 160
+Move Earth	6th	Transmutation		1 action	VSM	yes	phb 263
+Primordial Ward	6th	Abjuration		1 action	VS	yes	ee 21, xge 163
+Sunbeam	6th	Evocation		1 action	VSM	yes	phb 279
+Transport via Plants	6th	Conjuration		1 action	VS		phb 283
+Wall of Thorns	6th	Conjuration		1 action	VSM	yes	phb 287
+Wind Walk	6th	Transmutation		1 minute	VSM		phb 288
+Fire Storm	7th	Evocation		1 action	VS		phb 242
+Mirage Arcane	7th	Illusion		10 minutes	VS		phb 260
+Plane Shift	7th	Conjuration		1 action	VSMgp		phb 266
+Regenerate	7th	Transmutation		1 minute	VSM		phb 271
+Reverse Gravity	7th	Transmutation		1 action	VSM	yes	phb 272
+Whirlwind	7th	Evocation		1 action	VM	yes	ee 24, xge 171
+Animal Shapes	8th	Transmutation		1 action	VS	yes	phb 212
+Antipathy/Sympathy	8th	Enchantment		1 hour	VSM		phb 214
+Control Weather	8th	Transmutation		10 minutes	VSM	yes	phb 228
+Earthquake	8th	Evocation		1 action	VSM	yes	phb 236
+Feeblemind	8th	Enchantment		1 action	VSM		phb 239
+Sunburst	8th	Evocation		1 action	VSM		phb 279
+Tsunami	8th	Conjuration		1 minute	VS	yes	phb 284
+Foresight	9th	Divination		1 minute	VSM		phb 244
+Shapechange	9th	Transmutation		1 action	VSMgp	yes	phb 274
+Storm of Vengeance	9th	Conjuration		1 action	VS	yes	phb 279
+True Resurrection	9th	Necromancy		1 hour	VSMgp		phb 284

@@ -1,0 +1,132 @@
+Blade Ward	Cantrip	Abjuration		1 action	VS		phb 218
+Dancing Lights	Cantrip	Evocation		1 action	VSM	yes	phb 230
+Friends	Cantrip	Enchantment		1 action	SM	yes	phb 244
+Light	Cantrip	Evocation		1 action	VM		phb 255
+Mage Hand	Cantrip	Conjuration		1 action	VS		phb 256
+Mending	Cantrip	Transmutation		1 minute	VSM		phb 259
+Message	Cantrip	Transmutation		1 action	VSM		phb 259
+Minor Illusion	Cantrip	Illusion		1 action	SM		phb 260
+Prestidigitation	Cantrip	Transmutation		1 action	VS		phb 267
+Thunderclap	Cantrip	Evocation		1 action	S		ee 22, xge 168
+True Strike	Cantrip	Divination		1 action	S	yes	phb 284
+Vicious Mockery	Cantrip	Enchantment		1 action	V		phb 285
+Animal Friendship	1st	Enchantment		1 action	VSM		phb 212
+Bane	1st	Enchantment		1 action	VSM	yes	phb 216
+Charm Person	1st	Enchantment		1 action	VS		phb 221
+Comprehend Languages	1st	Divination	yes	1 action	VSM		phb 224
+Cure Wounds	1st	Evocation		1 action	VS		phb 230
+Detect Magic	1st	Divination	yes	1 action	VS	yes	phb 231
+Disguise Self	1st	Illusion		1 action	VS		phb 233
+Dissonant Whispers	1st	Enchantment		1 action	V		phb 234
+Earth Tremor	1st	Evocation		1 action	VS		ee 17, xge 155
+Faerie Fire	1st	Evocation		1 action	V	yes	phb 239
+Feather Fall	1st	Transmutation		1 reaction	VM		phb 239
+Healing Word	1st	Evocation		1 bonus action	V		phb 250
+Heroism	1st	Enchantment		1 action	VS	yes	phb 250
+Identify	1st	Divination	yes	1 minute	VSMgp		phb 252
+Illusory Script	1st	Illusion	yes	1 minute	SMgp		phb 252
+Longstrider	1st	Transmutation		1 action	VSM		phb 256
+Silent Image	1st	Illusion		1 action	VSM	yes	phb 276
+Sleep	1st	Enchantment		1 action	VSM		phb 276
+Speak with Animals	1st	Divination	yes	1 action	VS		phb 277
+Tasha's Hideous Laughter	1st	Enchantment		1 action	VSM	yes	phb 280
+Thunderwave	1st	Evocation		1 action	VS		phb 282
+Unseen Servant	1st	Conjuration	yes	1 action	VSM		phb 284
+Animal Messenger	2nd	Enchantment	yes	1 action	VSM		phb 212
+Blindness/Deafness	2nd	Necromancy		1 action	V		phb 219
+Calm Emotions	2nd	Enchantment		1 action	VS	yes	phb 221
+Cloud of Daggers	2nd	Conjuration		1 action	VSM	yes	phb 222
+Crown of Madness	2nd	Enchantment		1 action	VS	yes	phb 229
+Detect Thoughts	2nd	Divination		1 action	VSM	yes	phb 231
+Enhance Ability	2nd	Transmutation		1 action	VSM	yes	phb 237
+Enthrall	2nd	Enchantment		1 action	VS		phb 238
+Heat Metal	2nd	Transmutation		1 action	VSM	yes	phb 250
+Hold Person	2nd	Enchantment		1 action	VSM	yes	phb 251
+Invisibility	2nd	Illusion		1 action	VSM	yes	phb 254
+Knock	2nd	Transmutation		1 action	V		phb 254
+Lesser Restoration	2nd	Abjuration		1 action	VS		phb 255
+Locate Animals or Plants	2nd	Divination	yes	1 action	VSM		phb 256
+Locate Object	2nd	Divination		1 action	VSM	yes	phb 256
+Magic Mouth	2nd	Illusion	yes	1 minute	VSMgp		phb 257
+Phantasmal Force	2nd	Illusion		1 action	VSM	yes	phb 264
+Pyrotechnics	2nd	Transmutation		1 action	VS		ee 21, xge 163
+See Invisibility	2nd	Divination		1 action	VSM		phb 274
+Shatter	2nd	Evocation		1 action	VSM		phb 275
+Silence	2nd	Illusion	yes	1 action	VS	yes	phb 275
+Skywrite	2nd	Transmutation	yes	1 action	VS	yes	ee 22, xge 165
+Suggestion	2nd	Enchantment		1 action	VM	yes	phb 279
+Warding Wind	2nd	Evocation		1 action	V	yes	ee 23, xge 170
+Zone of Truth	2nd	Enchantment		1 action	VS		phb 289
+Bestow Curse	3rd	Necromancy		1 action	VS	yes	phb 218
+Catnap	3rd	Enchantment		1 action	SM		xge 151
+Clairvoyance	3rd	Divination		10 minutes	VSMgp	yes	phb 222
+Dispel Magic	3rd	Abjuration		1 action	VS		phb 234
+Enemies Abound	3rd	Enchantment		1 action	VS	yes	xge 155
+Fear	3rd	Illusion		1 action	VSM	yes	phb 239
+Feign Death	3rd	Necromancy	yes	1 action	VSM		phb 240
+Glyph of Warding	3rd	Abjuration		1 hour	VSMgp		phb 245
+Hypnotic Pattern	3rd	Illusion		1 action	SM	yes	phb 252
+Leomund's Tiny Hut	3rd	Evocation	yes	1 minute	VSM		phb 255
+Major Image	3rd	Illusion		1 action	VSM	yes	phb 258
+Nondetection	3rd	Abjuration		1 action	VSMgp		phb 263
+Plant Growth	3rd	Transmutation		1 action	VS		phb 266
+Sending	3rd	Evocation		1 action	VSM		phb 274
+Speak with Dead	3rd	Necromancy		1 action	VSM		phb 277
+Speak with Plants	3rd	Transmutation		1 action	VS		phb 277
+Stinking Cloud	3rd	Conjuration		1 action	VSM	yes	phb 278
+Tongues	3rd	Divination		1 action	VM		phb 283
+Charm Monster	4th	Enchantment		1 action	VS		xge 151
+Compulsion	4th	Enchantment		1 action	VS	yes	phb 224
+Confusion	4th	Enchantment		1 action	VSM	yes	phb 224
+Dimension Door	4th	Conjuration		1 action	V		phb 233
+Freedom of Movement	4th	Abjuration		1 action	VSM		phb 244
+Greater Invisibility	4th	Illusion		1 action	VS	yes	phb 246
+Hallucinatory Terrain	4th	Illusion		10 minutes	VSM		phb 249
+Locate Creature	4th	Divination		1 action	VSM	yes	phb 256
+Polymorph	4th	Transmutation		1 action	VSM	yes	phb 266
+Animate Objects	5th	Transmutation		1 action	VS	yes	phb 213
+Awaken	5th	Transmutation		8 hours	VSMgp		phb 216
+Dominate Person	5th	Enchantment		1 action	VS	yes	phb 235
+Dream	5th	Illusion		1 minute	VSM		phb 236
+Geas	5th	Enchantment		1 minute	V		phb 244
+Greater Restoration	5th	Abjuration		1 action	VSMgp		phb 246
+Hold Monster	5th	Enchantment		1 action	VSM	yes	phb 251
+Legend Lore	5th	Divination		10 minutes	VSMgp		phb 254
+Mass Cure Wounds	5th	Evocation		1 action	VS		phb 258
+Mislead	5th	Illusion		1 action	S	yes	phb 260
+Modify Memory	5th	Enchantment		1 action	VS	yes	phb 261
+Planar Binding	5th	Abjuration		1 hour	VSMgp		phb 265
+Raise Dead	5th	Necromancy		1 hour	VSMgp		phb 270
+Scrying	5th	Divination		10 minutes	VSMgp	yes	phb 273
+Seeming	5th	Illusion		1 action	VS		phb 274
+Skill Empowerment	5th	Transmutation		1 action	VS	yes	xge 165
+Synaptic Static	5th	Enchantment		1 action	VS		xge 167
+Teleportation Circle	5th	Conjuration		1 minute	VMgp		phb 282
+Eyebite	6th	Necromancy		1 action	VS	yes	phb 238
+Find the Path	6th	Divination		1 minute	VSMgp	yes	phb 240
+Guards and Wards	6th	Abjuration		10 minutes	VSMgp		phb 248
+Mass Suggestion	6th	Enchantment		1 action	VM		phb 258
+Otto's Irresistible Dance	6th	Enchantment		1 action	V	yes	phb 264
+Programmed Illusion	6th	Illusion		1 action	VSMgp		phb 269
+True Seeing	6th	Divination		1 action	VSMgp		phb 284
+Etherealness	7th	Transmutation		1 action	VS		phb 238
+Forcecage	7th	Evocation		1 action	VSMgp		phb 243
+Mirage Arcane	7th	Illusion		10 minutes	VS		phb 260
+Mordenkainen's Magnificent Mansion	7th	Conjuration		1 minute	VSMgp		phb 261
+Mordenkainen's Sword	7th	Evocation		1 action	VSMgp	yes	phb 262
+Project Image	7th	Illusion		1 action	VSMgp	yes	phb 270
+Regenerate	7th	Transmutation		1 minute	VSM		phb 271
+Resurrection	7th	Necromancy		1 hour	VSMgp		phb 272
+Symbol	7th	Abjuration		1 minute	VSMgp		phb 280
+Teleport	7th	Conjuration		1 action	V		phb 281
+Dominate Monster	8th	Enchantment		1 action	VS	yes	phb 235
+Feeblemind	8th	Enchantment		1 action	VSM		phb 239
+Glibness	8th	Transmutation		1 action	V		phb 245
+Mind Blank	8th	Abjuration		1 action	VS		phb 259
+Power Word Stun	8th	Enchantment		1 action	V		phb 267
+Foresight	9th	Divination		1 minute	VSM		phb 244
+Mass Polymorph	9th	Transmutation		1 action	VSM	yes	xge 160
+Power Word Heal	9th	Evocation		1 action	VS		phb 266
+Power Word Kill	9th	Enchantment		1 action	V		phb 266
+Psychic Scream	9th	Enchantment		1 action	S		xge 163
+True Polymorph	9th	Transmutation		1 action	VSM	yes	phb 283

@@ -1,0 +1,126 @@
+{
+  "Dwarf": {
+    "subraces": {
+      "Hill": {
+        "abilities": {
+          "Constitution": 2,
+          "Wisdom": 1
+        }
+      },
+      "Mountain": {
+        "abilities": {
+          "Constitution": 2,
+          "Strength": 2
+        }
+      }
+    }
+  },
+  "Elf": {
+    "subraces": {
+      "High": {
+        "abilities": {
+          "Intelligence": 3
+        }
+      },
+      "Wood": {
+        "abilities": {
+          "Intelligence": 2,
+          "Wisdom": 1
+        }
+      },
+      "Dark": {
+        "abilities": {
+          "Intelligence": 2,
+          "Charisma": 1
+        }
+      }
+    }
+  },
+  "Halfling": {
+    "subraces": {
+      "Lightfoot": {
+        "abilities": {
+          "Dexterity": 2,
+          "Charisma": 1
+        }
+      },
+      "Stout": {
+        "abilities": {
+          "Dexterity": 2,
+          "Constitution": 1
+        }
+      }
+    }
+  },
+  "Human": {
+    "subraces": {
+      "Common": {
+        "abilities": {
+          "Strength": 1,
+          "Dexterity": 1,
+          "Constitution": 1,
+          "Intelligence": 1,
+          "Wisdom": 1,
+          "Charisma": 1
+        }
+      }
+    }
+  },
+  "Dragonborn": {
+    "subraces": {
+      "Common": {
+        "abilities": {
+          "Strength": 2,
+          "Charisma": 1
+        }
+      }
+    }
+  },
+  "Gnome": {
+    "subraces": {
+      "Forest": {
+        "abilities": {
+          "Intelligence": 2,
+          "Dexterity": 1
+        }
+      },
+      "Rock": {
+        "abilities": {
+          "Intelligence": 2,
+          "Constitution": 1
+        }
+      }
+    }
+  },
+  "Half-Elf":{
+    "subraces": {
+      "Common": {
+        "abilities": {
+          "Charisma": 2,
+          "Anyother1": 1,
+          "Anyother2": 1
+        }
+      }
+    }
+  },
+  "Half-Orc": {
+    "subraces": {
+      "Common": {
+        "abilities": {
+          "Strength": 2,
+          "Constitution": 1
+        }
+      }
+    }
+  },
+  "Tiefling": {
+    "subraces": {
+      "Common": {
+        "abilities": {
+          "Charisma": 2,
+          "Intelligence": 1
+        }
+      }
+    }
+  }
+}
