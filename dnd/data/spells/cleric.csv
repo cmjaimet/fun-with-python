@@ -1,0 +1,113 @@
+Guidance	Cantrip	Divination		1 action	VS	yes	phb 248
+Light	Cantrip	Evocation		1 action	VM		phb 255
+Mending	Cantrip	Transmutation		1 minute	VSM		phb 259
+Resistance	Cantrip	Abjuration		1 action	VSM	yes	phb 272
+Sacred Flame	Cantrip	Evocation		1 action	VS		phb 272
+Spare the Dying	Cantrip	Necromancy		1 action	VS		phb 277
+Thaumaturgy	Cantrip	Transmutation		1 action	V		phb 282
+Toll the Dead	Cantrip	Necromancy		1 action	VS		xge 169
+Word of Radiance	Cantrip	Evocation		1 action	VM		xge 171
+Bane	1st	Enchantment		1 action	VSM	yes	phb 216
+Bless	1st	Enchantment		1 action	VSM	yes	phb 219
+Ceremony	1st	Abjuration	yes	1 hour	VSMgp		xge 151
+Command	1st	Enchantment		1 action	V		phb 223
+Create or Destroy Water	1st	Transmutation		1 action	VSM		phb 229
+Cure Wounds	1st	Evocation		1 action	VS		phb 230
+Detect Evil and Good	1st	Divination		1 action	VS	yes	phb 231
+Detect Magic	1st	Divination	yes	1 action	VS	yes	phb 231
+Detect Poison and Disease	1st	Divination	yes	1 action	VSM	yes	phb 231
+Guiding Bolt	1st	Evocation		1 action	VS		phb 248
+Healing Word	1st	Evocation		1 bonus action	V		phb 250
+Inflict Wounds	1st	Necromancy		1 action	VS		phb 253
+Protection from Evil and Good	1st	Abjuration		1 action	VSM	yes	phb 270
+Purify Food and Drink	1st	Transmutation	yes	1 action	VS		phb 270
+Sanctuary	1st	Abjuration		1 bonus action	VSM		phb 272
+Shield of Faith	1st	Abjuration		1 bonus action	VSM	yes	phb 275
+Aid	2nd	Abjuration		1 action	VSM		phb 211
+Augury	2nd	Divination	yes	1 minute	VSMgp		phb 215
+Blindness/Deafness	2nd	Necromancy		1 action	V		phb 219
+Calm Emotions	2nd	Enchantment		1 action	VS	yes	phb 221
+Continual Flame	2nd	Evocation		1 action	VSMgp		phb 227
+Enhance Ability	2nd	Transmutation		1 action	VSM	yes	phb 237
+Find Traps	2nd	Divination		1 action	VS		phb 241
+Gentle Repose	2nd	Necromancy	yes	1 action	VSM		phb 245
+Hold Person	2nd	Enchantment		1 action	VSM	yes	phb 251
+Lesser Restoration	2nd	Abjuration		1 action	VS		phb 255
+Locate Object	2nd	Divination		1 action	VSM	yes	phb 256
+Prayer of Healing	2nd	Evocation		10 minutes	V		phb 267
+Protection from Poison	2nd	Abjuration		1 action	VS		phb 270
+Silence	2nd	Illusion	yes	1 action	VS	yes	phb 275
+Spiritual Weapon	2nd	Evocation		1 bonus action	VS		phb 278
+Warding Bond	2nd	Abjuration		1 action	VSMgp		phb 287
+Zone of Truth	2nd	Enchantment		1 action	VS		phb 289
+Animate Dead	3rd	Necromancy		1 minute	VSM		phb 212
+Beacon of Hope	3rd	Abjuration		1 action	VS	yes	phb 217
+Bestow Curse	3rd	Necromancy		1 action	VS	yes	phb 218
+Clairvoyance	3rd	Divination		10 minutes	VSMgp	yes	phb 222
+Create Food and Water	3rd	Conjuration		1 action	VS		phb 229
+Daylight	3rd	Evocation		1 action	VS		phb 230
+Dispel Magic	3rd	Abjuration		1 action	VS		phb 234
+Feign Death	3rd	Necromancy	yes	1 action	VSM		phb 240
+Glyph of Warding	3rd	Abjuration		1 hour	VSMgp		phb 245
+Life Transference	3rd	Necromancy		1 action	VS		xge 160
+Magic Circle	3rd	Abjuration		1 minute	VSMgp		phb 256
+Mass Healing Word	3rd	Evocation		1 bonus action	V		phb 258
+Meld into Stone	3rd	Transmutation	yes	1 action	VS		phb 259
+Protection from Energy	3rd	Abjuration		1 action	VS	yes	phb 270
+Remove Curse	3rd	Abjuration		1 action	VS		phb 271
+Revivify	3rd	Necromancy		1 action	VSMgp		phb 272
+Sending	3rd	Evocation		1 action	VSM		phb 274
+Speak with Dead	3rd	Necromancy		1 action	VSM		phb 277
+Spirit Guardians	3rd	Conjuration		1 action	VSM	yes	phb 278
+Tongues	3rd	Divination		1 action	VM		phb 283
+Water Walk	3rd	Transmutation	yes	1 action	VSM		phb 287
+Banishment	4th	Abjuration		1 action	VSM	yes	phb 217
+Control Water	4th	Transmutation		1 action	VSM	yes	phb 227
+Death Ward	4th	Abjuration		1 action	VS		phb 230
+Divination	4th	Divination	yes	1 action	VSMgp		phb 234
+Freedom of Movement	4th	Abjuration		1 action	VSM		phb 244
+Guardian of Faith	4th	Conjuration		1 action	V		phb 246
+Locate Creature	4th	Divination		1 action	VSM	yes	phb 256
+Stone Shape	4th	Transmutation		1 action	VSM		phb 278
+Commune	5th	Divination	yes	1 minute	VSM		phb 223
+Contagion	5th	Necromancy		1 action	VS		phb 227
+Dawn	5th	Evocation		1 action	VSMgp	yes	xge 153
+Dispel Evil and Good	5th	Abjuration		1 action	VSM	yes	phb 233
+Flame Strike	5th	Evocation		1 action	VSM		phb 242
+Geas	5th	Enchantment		1 minute	V		phb 244
+Greater Restoration	5th	Abjuration		1 action	VSMgp		phb 246
+Hallow	5th	Evocation		24 hours	VSMgp		phb 249
+Holy Weapon	5th	Evocation		1 bonus action	VS	yes	xge 157
+Insect Plague	5th	Conjuration		1 action	VSM	yes	phb 254
+Legend Lore	5th	Divination		10 minutes	VSMgp		phb 254
+Mass Cure Wounds	5th	Evocation		1 action	VS		phb 258
+Planar Binding	5th	Abjuration		1 hour	VSMgp		phb 265
+Raise Dead	5th	Necromancy		1 hour	VSMgp		phb 270
+Scrying	5th	Divination		10 minutes	VSMgp	yes	phb 273
+Blade Barrier	6th	Evocation		1 action	VS	yes	phb 218
+Create Undead	6th	Necromancy		1 minute	VSMgp		phb 229
+Find the Path	6th	Divination		1 minute	VSMgp	yes	phb 240
+Forbiddance	6th	Abjuration	yes	10 minutes	VSMgp		phb 243
+Harm	6th	Necromancy		1 action	VS		phb 249
+Heal	6th	Evocation		1 action	VS		phb 250
+Heroes' Feast	6th	Conjuration		10 minutes	VSMgp		phb 250
+Planar Ally	6th	Conjuration		10 minutes	VS		phb 265
+True Seeing	6th	Divination		1 action	VSMgp		phb 284
+Word of Recall	6th	Conjuration		1 action	V		phb 289
+Conjure Celestial	7th	Conjuration		1 minute	VS	yes	phb 225
+Divine Word	7th	Evocation		1 bonus action	V		phb 234
+Etherealness	7th	Transmutation		1 action	VS		phb 238
+Fire Storm	7th	Evocation		1 action	VS		phb 242
+Plane Shift	7th	Conjuration		1 action	VSMgp		phb 266
+Regenerate	7th	Transmutation		1 minute	VSM		phb 271
+Resurrection	7th	Necromancy		1 hour	VSMgp		phb 272
+Symbol	7th	Abjuration		1 minute	VSMgp		phb 280
+Temple of the Gods	7th	Conjuration		1 hour	VSMgp		xge 167
+Antimagic Field	8th	Abjuration		1 action	VSM	yes	phb 213
+Control Weather	8th	Transmutation		10 minutes	VSM	yes	phb 228
+Earthquake	8th	Evocation		1 action	VSM	yes	phb 236
+Holy Aura	8th	Abjuration		1 action	VSMgp	yes	phb 251
+Astral Projection	9th	Necromancy		1 hour	VSMgp		phb 215
+Gate	9th	Conjuration		1 action	VSMgp	yes	phb 244
+Mass Heal	9th	Evocation		1 action	VS		phb 258
+True Resurrection	9th	Necromancy		1 hour	VSMgp		phb 284

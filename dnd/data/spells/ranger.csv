@@ -1,0 +1,55 @@
+Absorb Elements	1st	Abjuration		1 reaction	S		ee 15, xge 150
+Alarm	1st	Abjuration	yes	1 minute	VSM		phb 211
+Animal Friendship	1st	Enchantment		1 action	VSM		phb 212
+Beast Bond	1st	Divination		1 action	VSM	yes	ee 15, xge 150
+Cure Wounds	1st	Evocation		1 action	VS		phb 230
+Detect Magic	1st	Divination	yes	1 action	VS	yes	phb 231
+Detect Poison and Disease	1st	Divination	yes	1 action	VSM	yes	phb 231
+Ensnaring Strike	1st	Conjuration		1 bonus action	V	yes	phb 237
+Fog Cloud	1st	Conjuration		1 action	VS	yes	phb 243
+Goodberry	1st	Transmutation		1 action	VSM		phb 246
+Hail of Thorns	1st	Conjuration		1 bonus action	V	yes	phb 249
+Hunter's Mark	1st	Divination		1 bonus action	V	yes	phb 251
+Jump	1st	Transmutation		1 action	VSM		phb 254
+Longstrider	1st	Transmutation		1 action	VSM		phb 256
+Snare	1st	Abjuration		1 minute	SMgp		xge 165
+Speak with Animals	1st	Divination	yes	1 action	VS		phb 277
+Zephyr Strike	1st	Transmutation		1 bonus action	V	yes	xge 171
+Animal Messenger	2nd	Enchantment	yes	1 action	VSM		phb 212
+Barkskin	2nd	Transmutation		1 action	VSM	yes	phb 217
+Beast Sense	2nd	Divination	yes	1 action	S	yes	phb 217
+Cordon of Arrows	2nd	Transmutation		1 action	VSM		phb 228
+Darkvision	2nd	Transmutation		1 action	VSM		phb 230
+Find Traps	2nd	Divination		1 action	VS		phb 241
+Healing Spirit	2nd	Conjuration		1 bonus action	VS	yes	xge 157
+Lesser Restoration	2nd	Abjuration		1 action	VS		phb 255
+Locate Animals or Plants	2nd	Divination	yes	1 action	VSM		phb 256
+Locate Object	2nd	Divination		1 action	VSM	yes	phb 256
+Pass without Trace	2nd	Abjuration		1 action	VSM	yes	phb 264
+Protection from Poison	2nd	Abjuration		1 action	VS		phb 270
+Silence	2nd	Illusion	yes	1 action	VS	yes	phb 275
+Spike Growth	2nd	Transmutation		1 action	VSM	yes	phb 277
+Conjure Animals	3rd	Conjuration		1 action	VS	yes	phb 225
+Conjure Barrage	3rd	Conjuration		1 action	VSM		phb 225
+Daylight	3rd	Evocation		1 action	VS		phb 230
+Flame Arrows	3rd	Transmutation		1 action	VS	yes	ee 18, xge 156
+Lightning Arrow	3rd	Transmutation		1 bonus action	VS	yes	phb 255
+Nondetection	3rd	Abjuration		1 action	VSMgp		phb 263
+Plant Growth	3rd	Transmutation		1 action	VS		phb 266
+Protection from Energy	3rd	Abjuration		1 action	VS	yes	phb 270
+Speak with Plants	3rd	Transmutation		1 action	VS		phb 277
+Water Breathing	3rd	Transmutation	yes	1 action	VSM		phb 287
+Water Walk	3rd	Transmutation	yes	1 action	VSM		phb 287
+Wind Wall	3rd	Evocation		1 action	VSM	yes	phb 288
+Conjure Woodland Beings	4th	Conjuration		1 action	VSM	yes	phb 226
+Freedom of Movement	4th	Abjuration		1 action	VSM		phb 244
+Grasping Vine	4th	Conjuration		1 bonus action	VS	yes	phb 246
+Guardian of Nature	4th	Transmutation		1 bonus action	V	yes	xge 157
+Locate Creature	4th	Divination		1 action	VSM	yes	phb 256
+Stoneskin	4th	Abjuration		1 action	VSMgp	yes	phb 278
+Commune with Nature	5th	Divination	yes	1 minute	VS		phb 224
+Conjure Volley	5th	Conjuration		1 action	VSM		phb 226
+Steel Wind Strike	5th	Conjuration		1 action	SMgp		xge 166
+Swift Quiver	5th	Transmutation		1 bonus action	VSM	yes	phb 279
+Tree Stride	5th	Conjuration		1 action	VS	yes	phb 283
+Wrath of Nature	5th	Evocation		1 action	VS	yes	xge 171
