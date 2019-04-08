@@ -2,11 +2,7 @@ from os import walk
 from re import findall, sub, split, search
 import pprint
 
-##
 
-#
-
-#
 def get_code_files( folder ):
     allfiles = []
     for ( dirpath, dirnames, filenames ) in walk( folder ):
@@ -47,6 +43,9 @@ def remove_comment_blocks( text ):
             comment_on = False
         count += 1
     return new_text
+
+
+
 
 def get_function_list( text ):
     fns = split( "\n\s*[a-z]*\s*function\s+", text )
@@ -192,7 +191,9 @@ for fname in repo_files:
 		'general': file_general
 	} )
 
-# pp.pprint( file_list )
+# pp.pprint( file_list ) - this is old
+# more
+#
 
 for f in file_list:
 	print( f['name'] )

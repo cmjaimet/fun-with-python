@@ -5,10 +5,6 @@ path_in  = './repo/php_in.php'
 path_out = './repo/php_new.php'
 
 # stuff
-# ok
-
-#
-#
 
 def get_php( path ):
     text_file = open( path, "r" )
