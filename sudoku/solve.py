@@ -46,12 +46,34 @@ def check_cell_row( board, cell, row, col ):
     # print(row,col)
     # pp.pprint(cell)
     for x in range( 9 ):
+        # remove any solved values from this cell's options
         if ( is_cell_solved( board[ row ][ x ] ) ):
             # remove board[ row ][ x ] from cell
             try:
                 cell.remove( board[ row ][ x ] )
             except:
                 continue
+    # placeholder for bigger solution
+    # if this cell has n options and there are n total cells with the same options then remove those options from all other cells in the row
+    # variation is that if there are n cells with a total overlap of n values then do the same
+    # rarely happens in more than four cells so maybe treat each separately to start then look for simplification
+    cell_size = len( cell )
+    if ( 2 == cell_size ):
+        col2 = -1
+        for x in range( 9 ):
+            if board[ row ][ x ] == cell and not x == col:
+                col2 = x
+                break
+        if -1 < col2:
+            for x in range( 9 ):
+                # remove all values in cell from all cells in row except these two
+                if not col == x and not col2 == x:
+                    try:
+                        # print( row, col, x, y, cell[0])
+                        board[ row ][ x ].remove( cell[ 0 ] )
+                        board[ row ][ x ].remove( cell[ 1 ] )
+                    except:
+                        continue
     return cell
 
 # remove from cell any solved values in the col
@@ -63,18 +85,61 @@ def check_cell_col( board, cell, row, col ):
                 cell.remove( board[ x ][ col ] )
             except:
                 continue
+    cell_size = len( cell )
+    if ( 2 == cell_size ):
+        row2 = -1
+        for x in range( 9 ):
+            if board[ x ][ col ] == cell and not x == row:
+                row2 = x
+                break
+        if -1 < row2:
+            for x in range( 9 ):
+                # remove all values in cell from all cells in row except these two
+                if not row == x and not row2 == x:
+                    try:
+                        # print( row, col, x, y, cell[0])
+                        board[ x ][ col ].remove( cell[ 0 ] )
+                        board[ x ][ col ].remove( cell[ 1 ] )
+                    except:
+                        continue
     return cell
 
 # remove from cell any solved values in the box
 def check_cell_box( board, cell, row, col ):
-    coord = get_box_coord( row, col )
-    for r in range( 3 ):
-        for c in range( 3 ):
-            if ( is_cell_solved( board[ coord[0] + r ][ coord[1] + c ] ) ):
+    box_coord = get_box_coord( row, col )
+    for r in range( box_coord[0], box_coord[0] + 3 ):
+        for c in range( box_coord[1], box_coord[1] + 3 ):
+            # print( box_coord[0], row_curr, r)
+            if ( is_cell_solved( board[ r ][ c ] ) ):
                 try:
-                    cell.remove( board[ coord[0] + r ][ coord[1] + c ] )
+                    cell.remove( board[ r ][ c ] )
                 except:
                     continue
+    cell_size = len( cell )
+    if ( 2 == cell_size ):
+        row2 = -1
+        col2 = -1
+        for r in range( box_coord[0], box_coord[0] + 3 ):
+            for c in range( box_coord[1], box_coord[1] + 3 ):
+                # row_curr = box_coord[0] + r
+                # col_curr = box_coord[1] + c
+                if board[ r ][ c ] == cell and not r == row and not c == col:
+                    row2 = r
+                    col2 = c
+                    break
+        if -1 < row2:
+            for r in range( box_coord[0], box_coord[0] + 3 ):
+                for c in range( box_coord[1], box_coord[1] + 3 ):
+                    # row_curr = box_coord[0] + r
+                    # col_curr = box_coord[1] + c
+                    if ( row == r and col == c ) or ( row2 == r and col2 == c ):
+                        continue
+                    else:
+                        try:
+                            board[ r ][ c ].remove( cell[ 0 ] )
+                            board[ r ][ c ].remove( cell[ 1 ] )
+                        except:
+                            continue
     return cell
 
 def get_box_coord( row, col ):
@@ -96,7 +161,7 @@ def is_board_solved( board ):
     return True
 
 def solve_board( board, iteration ):
-    max_iterations = 5
+    max_iterations = 10
     for row in range( 9 ):
         for col in range( 9 ):
             # print( row, col )
@@ -116,5 +181,3 @@ show_board( board )
 board = solve_board( board, 0 )
 # pp.pprint( board )
 show_board( board )
-
-# pp.pprint(set_cell_options( board, 0, 5 ))
