@@ -22,15 +22,15 @@ def show_board( board ):
     display = ''
     for row in range( 9 ):
         for col in range( 9 ):
-            print(row,col)
-            pp.pprint(board[ row ][ col ])
+            # print(row,col)
+            # pp.pprint(board[ row ][ col ])
             display += ( str( board[ row ][ col ] ) if is_cell_solved( board[ row ][ col ] ) else '-' ) + ' '
         display += "\n"
     print( display )
 
 def set_cell_options( board, row, col ):
     cell = board[ row ][ col ]
-    if ( False == is_cell_solved( cell ) ):
+    if not is_cell_solved( cell ):
         # pp.pprint(cell)
         cell = check_cell_row( board, cell, row, col )
         cell = check_cell_col( board, cell, row, col )
@@ -89,7 +89,11 @@ def is_cell_solved( cell ):
         return False
 
 def is_board_solved( board ):
-    return False
+    for row in range( 9 ):
+        for col in range( 9 ):
+            if not is_cell_solved( board[ row ][ col ] ):
+                return False
+    return True
 
 def solve_board( board, iteration ):
     max_iterations = 5
@@ -100,7 +104,7 @@ def solve_board( board, iteration ):
         # pp.pprint( board )
         # quit()
     iteration += 1
-    print( 'iter: ' + str( iteration ) )
+    print( 'Iteration: ' + str( iteration ) )
     # keep solving if board is not solved and fewer than max_iterations have been executed
     if max_iterations > iteration and not is_board_solved( board ):
         board = solve_board( board, iteration )
@@ -110,7 +114,7 @@ board = get_board( path )
 show_board( board )
 
 board = solve_board( board, 0 )
-pp.pprint( board )
+# pp.pprint( board )
 show_board( board )
 
 # pp.pprint(set_cell_options( board, 0, 5 ))
