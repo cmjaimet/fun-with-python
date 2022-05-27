@@ -1,10 +1,40 @@
 import requests
 import pprint
 pp = pprint.PrettyPrinter( indent=4 )
-path = './games/002.csv'
 
-# Returns integer value if set and array 1-9 if not
-def get_board( path ):
+def get_board( path, format, line=0 ):
+    if 'csv' == format:
+        return get_board_csv( path )
+    else:
+        return get_board_txt( path, line - 1 )
+
+def get_board_txt( path, line ):
+    raw = open( path ).read()
+    rows = raw.split("\n")
+    board = [ None ] * 9
+    if len( rows ) >= line:
+        print(rows[ line ] )
+        data = list( rows[ line ] )
+        count = 0
+        for cell in data:
+            row = int( count / 9 )
+            col = count % 9
+            if 0 == col:
+                board[ row ] = [ None ] * 9
+            # print( row, col )
+            try:
+                answer = int( cell )
+            except:
+                answer = list( range( 1, 10 ) )
+            board[ row ][ col ] = answer
+            count += 1
+            if 81 == count:
+                break
+    # quit()
+    pp.pprint(board)
+    return board
+
+def get_board_csv( path ):
     raw = open( path ).read()
     rows = raw.split("\n")
     board = []
@@ -14,19 +44,23 @@ def get_board( path ):
         for cell in cells:
             nums.append( list( range( 1, 10 ) ) if cell == '' else int( cell ) )
         board.append( nums )
+        if 9 == len( board ):
+            # stop reading the file after 9 lines - could alter this to 9 correctly formatted lines
+            break
     return board
 
-def show_board( board ):
-    # pp.pprint( board )
-    # quit()
-    display = ''
-    for row in range( 9 ):
-        for col in range( 9 ):
-            # print(row,col)
-            # pp.pprint(board[ row ][ col ])
-            display += ( str( board[ row ][ col ] ) if is_cell_solved( board[ row ][ col ] ) else '-' ) + ' '
-        display += "\n"
-    print( display )
+def show_board( board, pretty=True ):
+    if not pretty:
+        pp.pprint( board )
+    else:
+        display = ''
+        for row in range( 9 ):
+            for col in range( 9 ):
+                # print(row,col)
+                # pp.pprint(board[ row ][ col ])
+                display += ( str( board[ row ][ col ] ) if is_cell_solved( board[ row ][ col ] ) else '-' ) + ' '
+            display += "\n"
+        print( display )
 
 def set_cell_options( board, row, col ):
     cell = board[ row ][ col ]
@@ -162,22 +196,30 @@ def is_board_solved( board ):
 
 def solve_board( board, iteration ):
     max_iterations = 10
+    fixes = 0
     for row in range( 9 ):
         for col in range( 9 ):
             # print( row, col )
+            start_value = board[ row ][ col ]
             board[ row ][ col ] = set_cell_options( board, row, col )
+            if start_value != board[ row ][ col ]:
+                fixes += 1
         # pp.pprint( board )
         # quit()
     iteration += 1
-    print( 'Iteration: ' + str( iteration ) )
     # keep solving if board is not solved and fewer than max_iterations have been executed
-    if max_iterations > iteration and not is_board_solved( board ):
+    print( 'Fixes: ' + str( fixes ) )
+    show_board( board, False )
+    if max_iterations > iteration and not is_board_solved( board ) and 0 < fixes:
         board = solve_board( board, iteration )
+    # print( 'Iterations: ' + str( iteration ) )
     return board
 
-board = get_board( path )
-show_board( board )
+# board = get_board( './games/002.csv', 'csv' )
+board = get_board( './games/multiple.txt', 'txt', 10 )
+
+show_board( board, True )
 
 board = solve_board( board, 0 )
 # pp.pprint( board )
-show_board( board )
+show_board( board, True )
